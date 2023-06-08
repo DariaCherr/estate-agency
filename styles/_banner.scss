@@ -20,6 +20,14 @@
         color: var(--color3);
         margin: 70px 0;
         font-weight: 500;
+        position: relative;
+        &::before {
+            content: "“";
+            font-size: 30px;
+        }
+        &::after {
+            content: "”";
+        }
     }
     &__gradient {
         background: linear-gradient(52.34deg, #D59647 6.79%, #DBA868 26.67%, #F0E088 44.46%, #DAA35F 54.93%, #D59647 63.3%, #EFE188 87.37%, #D59647 102.02%, #BD843E 104.12%, #805426 109.35%, #68421D 111.44%), #FF5C00;

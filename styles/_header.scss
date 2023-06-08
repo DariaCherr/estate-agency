@@ -4,8 +4,13 @@
     padding: 30px 151px 13px;
     background-color: rgba(40, 40, 40, 0.5);
     line-height: 25px;
+    background-repeat: no-repeat;
     &__logo {
-        background-image: url(/icons/logo.svg);
+        &::before {
+            content: '';
+            background-image: url(/icons/logo.svg);
+            background-repeat: no-repeat;
+        }
     }
     &__gradient-txt {
         background: linear-gradient(42.86deg, #D59647 -38.34%, #DBA868 -7.8%, #F0E088 19.52%, #DAA35F 35.59%, #D59647 48.44%, #EFE188 85.4%, #D59647 107.9%, #BD843E 111.12%, #805426 119.15%, #68421D 122.36%), #FFFFFF;

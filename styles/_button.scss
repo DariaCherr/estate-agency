@@ -4,13 +4,13 @@
     text-transform: uppercase;
     font-weight: 600;
     &--banner {
-        max-width: 371px;
+        width: 371px;
         line-height: 62px;
         font-size: 1.2rem;
         margin-bottom: 53px;
     }
     &--header {
-        max-width: 174px;
+        width: 174px;
         line-height: 40px;
         font-size: 0.9rem;
         background: linear-gradient(88.51deg, #D59647 -20.92%, #DBA868 2.9%, #F0E088 24.22%, #DAA35F 36.76%, #D59647 46.79%, #9A6830 61.83%, #EFE188 75.63%, #D59647 93.18%, #BD843E 95.69%, #805426 101.96%, #68421D 104.47%), linear-gradient(135deg, #AF8338 0%, #AF8338 10%, #AF8338 11%, #C09951 16%, #D9BB77 26%, #EBD392 34%, #F6E2A2 42%, #FAE7A8 48%, #AF8338 89.99%, #825428 95.99%, #6F4022 99.99%), #FF5C00;
