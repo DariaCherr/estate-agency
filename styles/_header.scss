@@ -1,0 +1,33 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 151px 13px;
+    background-color: rgba(40, 40, 40, 0.5);
+    line-height: 25px;
+    &__logo {
+        background-image: url(/icons/logo.svg);
+    }
+    &__gradient-txt {
+        background: linear-gradient(42.86deg, #D59647 -38.34%, #DBA868 -7.8%, #F0E088 19.52%, #DAA35F 35.59%, #D59647 48.44%, #EFE188 85.4%, #D59647 107.9%, #BD843E 111.12%, #805426 119.15%, #68421D 122.36%), #FFFFFF;
+        background-clip: text;
+        color: transparent;
+        font-size: 1.8rem;
+        text-align: left;
+    }
+    &__icon {
+        background-repeat: no-repeat;
+        padding-left: 40px;
+        height: 30px;
+        &--e-mail {
+            background-image: url(../icons/Email.svg);
+            text-decoration: underline;
+        }
+        &--location {
+            background-image: url(/icons/Map.svg);
+        }
+        &--phone {
+            background-image: url(/icons/Phone.svg);
+            font-size: 1.3rem;
+        }
+    }
+}

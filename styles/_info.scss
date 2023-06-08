@@ -1,0 +1,30 @@
+.info {
+    display: flex;
+    justify-content: space-around;
+    background: var(--color4);
+    padding: 50px 95px;
+    border-radius: 100px;
+    position: absolute;
+    margin-top: -100px;
+    margin-right: 100px;
+    font-weight: 600;
+    &__elem {
+        background-repeat: no-repeat;
+        &--1 {
+            background-image: url(../icons/elem1.svg);
+            padding-left: 30px;
+        }
+        &--2 {
+            background-image: url(../icons/elem2.svg);
+            padding-left: 60px;
+        }
+        &--3 {
+            background-image: url(../icons/elem3.svg);
+            padding-left: 70px;
+        }
+        &--4 {
+            background-image: url(../icons/elem4.svg);
+            padding-left: 90px;
+        }
+    }
+}
