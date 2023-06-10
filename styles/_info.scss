@@ -4,10 +4,8 @@
     background: var(--color4);
     padding: 50px 95px;
     border-radius: 100px;
-    position: absolute;
-    margin-top: -100px;
-    right: 0px;
     font-weight: 600;
+    text-align: center;
     &__elem {
         background-repeat: no-repeat;
         &--1 {
@@ -96,6 +94,16 @@
         &__elem {
             width: 100%;
             text-align: left;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .info {
+        &__elem {
+            &:not(:last-child) {
+                margin-bottom: 20px;
+            }
         }
     }
 }

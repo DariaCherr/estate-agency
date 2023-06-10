@@ -5,6 +5,7 @@
     padding: 100px 30px;
     max-width: 1920px;
     margin: 0 auto;
+    text-align: center;
     &__num {
         font-size: 5rem;
         background: linear-gradient(88.51deg, #D59647 -20.92%, #DBA868 2.9%, #F0E088 24.22%, #DAA35F 36.76%, #D59647 46.79%, #9A6830 61.83%, #EFE188 75.63%, #D59647 93.18%, #BD843E 95.69%, #805426 101.96%, #68421D 104.47%), linear-gradient(180deg, #D59647 0%, #DBA868 18.98%, #E0B580 35.96%, #DAA35F 45.95%, #D59647 53.95%, #9A6830 65.93%, #68421D 76.92%, #D59647 90.91%, #BD843E 92.91%, #805426 97.9%, #68421D 99.9%);
@@ -58,5 +59,11 @@
                 margin-bottom: 20px;
             }
         }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .value {
+        padding-top: 280px;
     }
 }

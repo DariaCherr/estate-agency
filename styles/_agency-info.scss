@@ -1,0 +1,17 @@
+.agency-info {
+    padding: 0 100px;
+    margin: -100px auto 0;
+    position: absolute;
+}
+
+@media screen and (max-width: 1228px) {
+    .agency-info {
+        padding: 0 50px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .agency-info {
+        padding: 0 20px;
+    }
+}

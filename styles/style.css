@@ -1,9 +1,26 @@
 @charset "UTF-8";
+.agency-info {
+  padding: 0 100px;
+  margin: -100px auto 0;
+  position: absolute;
+}
+
+@media screen and (max-width: 1228px) {
+  .agency-info {
+    padding: 0 50px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .agency-info {
+    padding: 0 20px;
+  }
+}
 .banner {
   text-align: left;
   position: relative;
   padding: 0 151px 130px;
   max-width: 1920px;
+  margin: 0 auto;
 }
 .banner__title {
   font-size: 6rem;
@@ -581,6 +598,7 @@ main {
   line-height: 25px;
   background-repeat: no-repeat;
   max-width: 2600px;
+  margin: 0 auto;
 }
 .header__log {
   display: flex;
@@ -714,10 +732,8 @@ main {
   background: var(--color4);
   padding: 50px 95px;
   border-radius: 100px;
-  position: absolute;
-  margin-top: -100px;
-  right: 0px;
   font-weight: 600;
+  text-align: center;
 }
 .info__elem {
   background-repeat: no-repeat;
@@ -796,9 +812,15 @@ main {
     text-align: left;
   }
 }
+@media screen and (max-width: 400px) {
+  .info__elem:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
 .partners {
-  margin: 0 0 100px;
+  margin: 0 auto 100px;
   max-width: 1920px;
+  opacity: 0.5;
 }
 .partners__photo {
   display: flex;
@@ -834,6 +856,7 @@ main {
   padding: 100px 30px;
   max-width: 1920px;
   margin: 0 auto;
+  text-align: center;
 }
 .value__num {
   font-size: 5rem;
@@ -882,6 +905,11 @@ main {
   }
   .value__elem:not(:last-child) {
     margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .value {
+    padding-top: 280px;
   }
 }
 .wrapper {
