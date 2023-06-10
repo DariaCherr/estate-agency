@@ -1,5 +1,0 @@
-@mixin pseudo-icon($bg-image: url()) {
-    content: "$";
-    background-image: ($bg-image);
-    display: inline-block;
-}

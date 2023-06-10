@@ -1,37 +1,118 @@
 .header {
     display: flex;
-    justify-content: space-between;
-    padding: 30px 151px 13px;
+    padding: 30px 151px 30px;
     background-color: rgba(40, 40, 40, 0.5);
     line-height: 25px;
     background-repeat: no-repeat;
-    &__logo {
-        &::before {
-            content: '';
-            background-image: url(/icons/logo.svg);
-            background-repeat: no-repeat;
-        }
-    }
+    max-width: 2600px;
     &__gradient-txt {
         background: linear-gradient(42.86deg, #D59647 -38.34%, #DBA868 -7.8%, #F0E088 19.52%, #DAA35F 35.59%, #D59647 48.44%, #EFE188 85.4%, #D59647 107.9%, #BD843E 111.12%, #805426 119.15%, #68421D 122.36%), #FFFFFF;
         background-clip: text;
         color: transparent;
         font-size: 1.8rem;
         text-align: left;
+        margin: 0 20px;
     }
     &__icon {
         background-repeat: no-repeat;
-        padding-left: 40px;
+        padding-left: 30px;
         height: 30px;
         &--e-mail {
             background-image: url(../icons/Email.svg);
             text-decoration: underline;
+            margin-right: 20px;
         }
         &--location {
             background-image: url(/icons/Map.svg);
         }
         &--phone {
             background-image: url(/icons/Phone.svg);
+            font-size: 1.3rem;
+        }
+    }
+    &__socials {
+        display: flex;
+        align-items: flex-start;
+    }
+    &__contacts {
+        display: flex;
+        align-items: flex-start;
+        margin: 0 20px 0 0;
+    }
+    &__links {
+        display: flex;
+        &:not(:last-child) {
+            margin-right: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 1790px) {
+    .header {
+        &__gradient-txt {
+            font-size: 1.5rem;
+        }
+        padding: 30px 100px 30px;
+    }
+}
+
+@media screen and (max-width: 1668px) {
+    .header {
+        &__icon {
+            &--phone {
+                font-size: 1rem;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1668px) {
+    .header {
+        padding: 30px 60px 30px;
+    }
+}
+
+@media screen and (max-width: 1409px) {
+    .header {
+        &__contacts {
+            flex-direction: column;
+        }
+    }
+}
+
+@media screen and (max-width: 1342px) {
+    .header {
+        padding: 30px 20px 30px;
+        justify-content: space-around;
+        align-items: center;
+        &__socials {
+            flex-direction: column;
+        }
+        img {
+            max-width: 50px;
+        }
+        &__icon {
+            margin: 0 0 10px 0;
+            &--phone {
+                margin: 10px 0 0 0;
+            }
+        }
+        &__links {
+            display: flex;
+            margin: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .header {
+        padding: 30px 20px 60px;
+    }
+}
+
+@media screen and (max-width: 751px) {
+    .header {
+        &__gradient-txt {
             font-size: 1.3rem;
         }
     }

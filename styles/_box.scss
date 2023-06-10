@@ -5,9 +5,70 @@
     font-family: 'Cormorant';
     width: 33.33%;
     position: relative;
-    &::before {
-        content: "";
-        background-image: url(../icons/01.svg);
+    &--01 {
+        &::before {
+            content: "";
+            background-image: url(/icons/01.svg);
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            width: 190px;
+            height: 185px;
+            left: 340px;
+            top: -10px;
+        }
+    }
+    &--02 {
+        &::before {
+            content: "";
+            background-image: url(/icons/02.svg);
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            width: 190px;
+            height: 185px;
+            left: 340px;
+            top: -10px;
+        }
+    }
+    &--03 {
+        &::before {
+            content: "";
+            background-image: url(/icons/03.svg);
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            width: 190px;
+            height: 185px;
+            left: 340px;
+            top: -10px;
+        }
+    }
+    &--04 {
+        &::before {
+            content: "";
+            background-image: url(/icons/04.svg);
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            width: 190px;
+            height: 185px;
+            left: 340px;
+            top: -10px;
+        }
+    }
+    &--05 {
+        &::before {
+            content: "";
+            background-image: url(/icons/05.svg);
+            background-repeat: no-repeat;
+            display: block;
+            position: absolute;
+            width: 190px;
+            height: 185px;
+            left: 340px;
+            top: -10px;
+        }
     }
     &__num {
         font-size: 5rem;
@@ -37,15 +98,357 @@
             margin-bottom: 20px;
         }
     }
+    &--06 {
+        padding: 50px;
+    }
     &__txt {
         color: var(--color3);
         font-weight: 700;
         font-size: 1.5rem;
-        background-image: url(../icons/06.svg);
-        background-repeat: no-repeat;
-        font-size: 5rem;
     }
     &--gradient {
         background: linear-gradient(46.66deg, #D59647 3.79%, #DBA868 18.84%, #F0E088 32.31%, #DAA35F 40.23%, #D59647 46.56%, #EFE188 64.78%, #D59647 75.87%, #BD843E 77.45%, #805426 81.41%, #68421D 82.99%), linear-gradient(222.86deg, #DFB47E 16.55%, #D09245 24.6%, #AB7637 28.31%, #8E5F2C 32.03%, #794F23 35.12%, #6C451F 38.83%, #68421D 41.93%, #6C451F 43.79%, #784F23 45.64%, #8D5E2B 48.12%, #A97436 49.98%, #CD9044 51.83%, #D59647 52.45%, #E0B580 58.02%, #DEB077 60.5%, #DAA35F 64.21%, #D79C52 66.07%, #BD8746 68.54%, #805528 75.35%, #68421D 78.45%), #FF5C00;
+    }
+}
+
+@media screen and (max-width: 1771px) {
+    .box {
+        &--01 {
+            &::before {
+                left: 270px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 270px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 270px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 270px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 270px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1572px) {
+    .box {
+        &--01 {
+            &::before {
+                left: 210px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 210px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 210px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 210px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 210px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .box {
+        &--01 {
+            &::before {
+                left: 190px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 190px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 190px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 190px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 190px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1344px) {
+    .box {
+        width: 50%;
+        &--01 {
+            &::before {
+                left: 310px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 310px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 310px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 310px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 310px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1135px) {
+    .box {
+        &--01 {
+            &::before {
+                left: 250px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 250px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 250px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 250px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1572px) {
+    .box {
+        &--01 {
+            &::before {
+                left: 210px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 210px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 210px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 210px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 210px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .box {
+        width: 100%;
+        &--01 {
+            &::before {
+                left: 470px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 470px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 470px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 470px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 470px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .box {
+        &--01 {
+            &::before {
+                left: 350px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 350px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 350px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 350px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 350px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .box {
+        &--01 {
+            &::before {
+                left: 250px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 250px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 250px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 250px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 250px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .box {
+        padding: 20px 26px;
+        &--01 {
+            &::before {
+                left: 180px;
+                top: -30px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 180px;
+                top: -30px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 180px;
+                top: -30px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 180px;
+                top: -30px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 180px;
+                top: -30px;
+            }
+        }
+        &__num {
+            font-size: 4rem;
+        }
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .box {
+        padding: 20px 26px;
+        &--01 {
+            &::before {
+                left: 120px;
+            }
+        }
+        &--02 {
+            &::before {
+                left: 120px;
+            }
+        }
+        &--03 {
+            &::before {
+                left: 120px;
+            }
+        }
+        &--04 {
+            &::before {
+                left: 120px;
+            }
+        }
+        &--05 {
+            &::before {
+                left: 120px;
+            }
+        }
     }
 }

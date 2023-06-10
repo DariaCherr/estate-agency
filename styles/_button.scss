@@ -11,8 +11,57 @@
     }
     &--header {
         width: 174px;
-        line-height: 40px;
+        height: 40px;
         font-size: 0.9rem;
+        margin-left: 20px;
         background: linear-gradient(88.51deg, #D59647 -20.92%, #DBA868 2.9%, #F0E088 24.22%, #DAA35F 36.76%, #D59647 46.79%, #9A6830 61.83%, #EFE188 75.63%, #D59647 93.18%, #BD843E 95.69%, #805426 101.96%, #68421D 104.47%), linear-gradient(135deg, #AF8338 0%, #AF8338 10%, #AF8338 11%, #C09951 16%, #D9BB77 26%, #EBD392 34%, #F6E2A2 42%, #FAE7A8 48%, #AF8338 89.99%, #825428 95.99%, #6F4022 99.99%), #FF5C00;
+    }
+}
+
+@media screen and (max-width: 1900px) {
+    .button {
+        &--banner {
+            margin-bottom: 110px;
+        }
+    }
+}
+
+@media screen and (max-width: 1637px) {
+    .button {
+        &--header {
+            font-size: 0.8rem;
+            line-height: 20px;
+        }
+        &--banner {
+            width: 270px;
+            font-size: 1rem;
+            margin-bottom: 90px;
+        }
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .button {
+        &--banner {
+            height: 50px;
+            line-height: 50px;
+            margin-bottom: 70px;
+        }
+    }
+}
+
+@media screen and (max-width: 1165px) {
+    .button {
+        &--banner {
+            margin-bottom: 60px;
+        }
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .button {
+        &--header {
+            display: none;
+        }
     }
 }
