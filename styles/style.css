@@ -543,7 +543,7 @@ main {
 }
 @media screen and (max-width: 1165px) {
   .button--banner {
-    margin-bottom: 60px;
+    margin-bottom: 30px;
   }
 }
 @media screen and (max-width: 880px) {
@@ -674,7 +674,7 @@ main {
     margin: 0;
   }
 }
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 990px) {
   .header {
     padding: 30px 20px 60px;
   }
