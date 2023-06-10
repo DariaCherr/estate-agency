@@ -478,19 +478,19 @@ main {
     padding: 20px 26px;
   }
   .box--01::before {
-    left: 120px;
+    left: 110px;
   }
   .box--02::before {
-    left: 120px;
+    left: 110px;
   }
   .box--03::before {
-    left: 120px;
+    left: 110px;
   }
   .box--04::before {
-    left: 120px;
+    left: 110px;
   }
   .box--05::before {
-    left: 120px;
+    left: 110px;
   }
 }
 .button {
