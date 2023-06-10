@@ -5,6 +5,10 @@
     line-height: 25px;
     background-repeat: no-repeat;
     max-width: 2600px;
+    &__log {
+        display: flex;
+        align-items: center;
+    }
     &__gradient-txt {
         background: linear-gradient(42.86deg, #D59647 -38.34%, #DBA868 -7.8%, #F0E088 19.52%, #DAA35F 35.59%, #D59647 48.44%, #EFE188 85.4%, #D59647 107.9%, #BD843E 111.12%, #805426 119.15%, #68421D 122.36%), #FFFFFF;
         background-clip: text;
@@ -23,10 +27,10 @@
             margin-right: 20px;
         }
         &--location {
-            background-image: url(/icons/Map.svg);
+            background-image: url(../icons/Map.svg);
         }
         &--phone {
-            background-image: url(/icons/Phone.svg);
+            background-image: url(../icons/Phone.svg);
             font-size: 1.3rem;
         }
     }
@@ -114,6 +118,38 @@
     .header {
         &__gradient-txt {
             font-size: 1.3rem;
+        }
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .header {
+        padding: 10px 20px;
+        flex-direction: column;
+        align-items: center;
+        &__log {
+            margin-bottom: 10px;
+        }
+        &__icon {
+            &--location {
+                margin-bottom: 25px;
+            }
+        }
+        &__contacts {
+            margin-right: 0;
+        }
+        &__gradient-txt {
+            margin-right: 0;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header {
+        &__icon {
+            &--location {
+                margin-bottom: 55px;
+            }
         }
     }
 }

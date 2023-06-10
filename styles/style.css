@@ -129,6 +129,29 @@
     margin-bottom: 10px;
   }
 }
+@media screen and (max-width: 724px) {
+  .banner__title {
+    font-size: 2.6rem;
+  }
+  .banner__desc {
+    font-size: 1rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .banner__title {
+    font-size: 2.5rem;
+  }
+}
+@media screen and (max-width: 460px) {
+  .banner__title {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .banner__block::after {
+    right: -30px;
+  }
+}
 :root {
   --color1: #282828;
   --color2: #FFFFFF;
@@ -170,7 +193,7 @@ main {
 }
 .box--01::before {
   content: "";
-  background-image: url(/icons/01.svg);
+  background-image: url(../icons/01.svg);
   background-repeat: no-repeat;
   display: block;
   position: absolute;
@@ -181,7 +204,7 @@ main {
 }
 .box--02::before {
   content: "";
-  background-image: url(/icons/02.svg);
+  background-image: url(../icons/02.svg);
   background-repeat: no-repeat;
   display: block;
   position: absolute;
@@ -192,7 +215,7 @@ main {
 }
 .box--03::before {
   content: "";
-  background-image: url(/icons/03.svg);
+  background-image: url(../icons/03.svg);
   background-repeat: no-repeat;
   display: block;
   position: absolute;
@@ -203,7 +226,7 @@ main {
 }
 .box--04::before {
   content: "";
-  background-image: url(/icons/04.svg);
+  background-image: url(../icons/04.svg);
   background-repeat: no-repeat;
   display: block;
   position: absolute;
@@ -214,7 +237,7 @@ main {
 }
 .box--05::before {
   content: "";
-  background-image: url(/icons/05.svg);
+  background-image: url(../icons/05.svg);
   background-repeat: no-repeat;
   display: block;
   position: absolute;
@@ -513,6 +536,11 @@ main {
     margin-bottom: 70px;
   }
 }
+@media screen and (max-width: 1335px) {
+  .button--banner {
+    margin-bottom: 80px;
+  }
+}
 @media screen and (max-width: 1165px) {
   .button--banner {
     margin-bottom: 60px;
@@ -521,6 +549,18 @@ main {
 @media screen and (max-width: 880px) {
   .button--header {
     display: none;
+  }
+}
+@media screen and (max-width: 724px) {
+  .button--banner {
+    font-size: 0.9rem;
+    line-height: 40px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .button--banner {
+    margin-bottom: 10px;
   }
 }
 .columns {
@@ -542,6 +582,10 @@ main {
   background-repeat: no-repeat;
   max-width: 2600px;
 }
+.header__log {
+  display: flex;
+  align-items: center;
+}
 .header__gradient-txt {
   background: linear-gradient(42.86deg, #D59647 -38.34%, #DBA868 -7.8%, #F0E088 19.52%, #DAA35F 35.59%, #D59647 48.44%, #EFE188 85.4%, #D59647 107.9%, #BD843E 111.12%, #805426 119.15%, #68421D 122.36%), #FFFFFF;
   -webkit-background-clip: text;
@@ -562,10 +606,10 @@ main {
   margin-right: 20px;
 }
 .header__icon--location {
-  background-image: url(/icons/Map.svg);
+  background-image: url(../icons/Map.svg);
 }
 .header__icon--phone {
-  background-image: url(/icons/Phone.svg);
+  background-image: url(../icons/Phone.svg);
   font-size: 1.3rem;
 }
 .header__socials {
@@ -640,6 +684,30 @@ main {
     font-size: 1.3rem;
   }
 }
+@media screen and (max-width: 724px) {
+  .header {
+    padding: 10px 20px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__log {
+    margin-bottom: 10px;
+  }
+  .header__icon--location {
+    margin-bottom: 25px;
+  }
+  .header__contacts {
+    margin-right: 0;
+  }
+  .header__gradient-txt {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .header__icon--location {
+    margin-bottom: 55px;
+  }
+}
 .info {
   display: flex;
   justify-content: space-between;
@@ -702,6 +770,30 @@ main {
   }
   .info__elem {
     font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 864px) {
+  .info {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .info__elem {
+    width: 50%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+  }
+  .info__elem:not(:last-child) {
+    margin-right: 0;
+  }
+}
+@media screen and (max-width: 560px) {
+  .info {
+    flex-direction: column;
+  }
+  .info__elem {
+    width: 100%;
+    text-align: left;
   }
 }
 .partners {
@@ -773,6 +865,11 @@ main {
   .value__elem {
     max-width: 250px;
     width: 50%;
+  }
+}
+@media screen and (max-width: 560px) {
+  .value {
+    padding-top: 220px;
   }
 }
 @media screen and (max-width: 450px) {

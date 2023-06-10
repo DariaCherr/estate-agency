@@ -50,6 +50,14 @@
     }
 }
 
+@media screen and (max-width: 1335px) {
+    .button {
+        &--banner {
+            margin-bottom: 80px;
+        }
+    }
+}
+
 @media screen and (max-width: 1165px) {
     .button {
         &--banner {
@@ -62,6 +70,24 @@
     .button {
         &--header {
             display: none;
+        }
+    }
+}
+
+@media screen and (max-width: 724px) {
+    .button {
+        &--banner {
+            font-size: 0.9rem;
+            line-height: 40px;
+            height: 40px;
+        }
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .button {
+        &--banner {
+            margin-bottom: 10px;
         }
     }
 }

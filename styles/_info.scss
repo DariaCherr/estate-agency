@@ -73,3 +73,29 @@
         }
     }
 }
+
+@media screen and (max-width: 864px) {
+    .info {
+        flex-wrap: wrap;
+        justify-content: center;
+        &__elem {
+            width: 50%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+            &:not(:last-child) {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .info {
+        flex-direction: column;
+        &__elem {
+            width: 100%;
+            text-align: left;
+        }
+    }
+}

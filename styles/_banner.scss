@@ -151,3 +151,40 @@
         }
     }
 }
+
+@media screen and (max-width: 724px) {
+    .banner {
+        &__title {
+            font-size: 2.6rem;
+        }
+        &__desc {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .banner {
+        &__title {
+            font-size: 2.5rem;
+        }
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .banner {
+        &__title {
+            font-size: 2rem;
+        }
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .banner {
+        &__block {
+            &::after {
+                right: -30px;
+            }
+        }
+    }
+}

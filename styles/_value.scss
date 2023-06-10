@@ -42,6 +42,12 @@
     }
 }
 
+@media screen and (max-width: 560px) {
+    .value {
+        padding-top: 220px;
+    }
+}
+
 @media screen and (max-width: 450px) {
     .value {
         flex-direction: column;
