@@ -262,36 +262,6 @@
     }
 }
 
-@media screen and (max-width: 1572px) {
-    .box {
-        &--01 {
-            &::before {
-                left: 210px;
-            }
-        }
-        &--02 {
-            &::before {
-                left: 210px;
-            }
-        }
-        &--03 {
-            &::before {
-                left: 210px;
-            }
-        }
-        &--04 {
-            &::before {
-                left: 210px;
-            }
-        }
-        &--05 {
-            &::before {
-                left: 210px;
-            }
-        }
-    }
-}
-
 @media screen and (max-width: 850px) {
     .box {
         width: 100%;

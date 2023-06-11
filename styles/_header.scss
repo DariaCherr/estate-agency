@@ -6,6 +6,7 @@
     background-repeat: no-repeat;
     max-width: 2600px;
     margin: 0 auto;
+    text-align: center;
     &__log {
         display: flex;
         align-items: center;
@@ -23,9 +24,19 @@
         padding-left: 30px;
         height: 30px;
         &--e-mail {
-            background-image: url(../icons/Email.svg);
+            position: relative;
             text-decoration: underline;
             margin-right: 20px;
+            &:before {
+                content: "";
+                background-image: url(../icons/Email.svg);
+                background-repeat: no-repeat;
+                display: block;
+                position: absolute;
+                width: 30px;
+                height: 30px;
+                right: 270px;
+            }
         }
         &--location {
             background-image: url(../icons/Map.svg);
@@ -46,6 +57,9 @@
     }
     &__links {
         display: flex;
+        margin-right: 20px;
+    }
+    &__link {
         &:not(:last-child) {
             margin-right: 15px;
         }
@@ -87,7 +101,7 @@
 
 @media screen and (max-width: 1342px) {
     .header {
-        padding: 30px 20px 30px;
+        padding: 15px 20px 30px;
         justify-content: space-around;
         align-items: center;
         &__socials {
@@ -111,7 +125,7 @@
 
 @media screen and (max-width: 990px) {
     .header {
-        padding: 30px 20px 60px;
+        padding: 15px 20px 60px;
     }
 }
 
@@ -138,9 +152,16 @@
         }
         &__contacts {
             margin-right: 0;
+            align-items: center;
         }
         &__gradient-txt {
             margin-right: 0;
+        }
+        &__socials {
+            align-items: center;
+        }
+        &__links {
+            margin: 0;
         }
     }
 }

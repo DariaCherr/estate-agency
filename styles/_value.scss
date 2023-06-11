@@ -32,10 +32,11 @@
     }
 }
 
-@media screen and (max-width: 1006px) {
+@media screen and (max-width: 1206px) {
     .value {
         justify-content: space-between;
         flex-wrap: wrap;
+        justify-content: center;
         &__elem {
             max-width: 250px;
             width: 50%;
